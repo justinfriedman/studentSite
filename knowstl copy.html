@@ -1,0 +1,203 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+
+<header>
+  <meta charset="utf-8">
+  <title>Get to know STL | WashU New Student Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+</header>
+
+<body>
+  <div id="top_bar">
+    <ul>
+      <li>
+        <a href="home.html"><img src="imgs/washuLogo.png" /></a>
+      </li>
+      <li class="right">
+        <a href="international.html">| International Students</a>
+
+      </li>
+      <li class="right">
+        <a href="transfer.html">| Transfers |</a>
+      </li>
+      <li class="right">
+        <a href="freshman.html">Freshmen |</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="bar_pic_div">
+    <ul class="bar_pic">
+      <li>
+        <a href="knowstl.html">
+          <div>
+            <ul class="bar_pic_element">
+              <li>
+                <img src="imgs/arch.jpg">
+              </li>
+
+              <p>
+                some text about getting to know st. louis.
+              </p>
+
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="studentgroup.html">
+          <div>
+            <ul class="bar_pic_element">
+              <li>
+                <img src="imgs/studentGroup.jpg">
+              </li>
+
+              <p>
+                some text about getting to know student groups.
+              </p>
+
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="firstyearcenter.html">
+          <div>
+            <ul class="bar_pic_element">
+              <li>
+                <img src="imgs/firstYearCenter.png">
+              </li>
+
+              <p>
+                some text about first year center programs
+              </p>
+
+            </ul>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="courses.html">
+          <div>
+            <ul class="bar_pic_element">
+              <li>
+                <img src="imgs/courses.png">
+              </li>
+
+              <p>
+                some text about the best courses
+              </p>
+
+            </ul>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="page_title">
+    <h1>Get to Know St. Louis</h1>
+  </div>
+  <div class="main_content">
+    <div class="user_message">
+      <h2>Hey Freshman</h2>
+      <p class="body_p">
+        Bespoke sustainable pour-over lo-fi synth authentic. Beard meggings plaid put a bird on it, small batch occupy helvetica gochujang swag sartorial scenester. PBR&B pitchfork intelligentsia tumblr swag art party. Pinterest salvia literally master cleanse
+        bespoke, taxidermy tofu marfa gluten-free williamsburg single-origin coffee narwhal health goth green juice man braid. Post-ironic pour-over tofu etsy polaroid. Twee craft beer tote bag, gentrify quinoa raw denim organic paleo godard seitan meggings
+        yr drinking vinegar. Messenger bag direct trade tofu cronut asymmetrical. </p>
+    </div>
+    <div class="map">
+      <div id="map">
+        <h2>Find these great area on the map</h2>
+        <div id="map"></div>
+        <script>
+        function initMap() {
+
+  var delmar = {
+    lat: 38.656192,
+    lng: -90.305159
+  };
+  var forestPark = {
+    lat: 38.638887,
+    lng: -90.294163
+  };
+  var scotttrade = {
+    lat: 38.626567,
+    lng: -90.202453
+  };
+  var target = {
+    lat: 38.627595,
+    lng: -90.343508
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 11,
+    center: delmar
+  });
+
+  var delmarPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/grn-circle.png");
+  var forestParkPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/blu-circle.png");
+  var scotttradePin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/red-circle.png");
+  var targetPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/purple-circle.png");
+
+
+
+
+  var delmarMarker = new google.maps.Marker({
+    position: delmar,
+    map: map,
+    title: 'Delmar Loop',
+    icon: delmarPin
+
+  });
+
+  var forestParkMarker = new google.maps.Marker({
+    position: forestPark,
+    map: map,
+    title: 'Forest Park',
+    icon: forestParkPin
+
+  });
+
+  var scotttradeMarker = new google.maps.Marker({
+    position: scotttrade,
+    map: map,
+    title: 'Scottrade Center',
+    icon: scotttradePin
+  });
+
+  var targetMarker = new google.maps.Marker({
+    position: target,
+    map: map,
+    title: 'Target',
+    icon: targetPin
+  });
+
+
+}
+</script>
+  <div id="dvMap" style="width: 300px; height: 400px">
+  </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <footer>
+    <div>
+      <ul>
+        <li>
+          <p>
+            some text about site
+          </p>
+        </li>
+        <li>
+          <a href="freshman.html">Freshmen</a><a href="transfers.html">Transfers</a><a href="international.html">International Students</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+
+}
+.body_text {
+  padding-top: 20px;
+  height: 20em;
+}
+
+.bar_pic_div {
+  border: 10px solid red;
+}
+#map {
+        width: 500px;
+        height: 400px;
+      }
+.delmar {
+  color: blue;
+}
+
+.forestPark {
+  color: blue;
+}
+
+.scott {
+  color: blue;
+}
+
+.target {
+  color: blue;
+}
+
+ul #tb li{
+  display:inline;
+}
+
+.bar_pic {
+  text-align: center;
+
+}
+
+#top_bar ul li{
+  display: inline-block;
+
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.rightPush {
+
+  padding-left: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.bar_pic li{
+  display: inline-block;
+}
+
+.main_content {
+  height: 600px;
+  width: 100%;
+}
+
+
+#welcome_img {
+  width: 100vw;
+
+}
+
+#welcome_img img{
+  height: inherit;
+  width: inherit;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.body_text {
+  text-align: center;
+}
+
+.body_p {
+  display: inline-block;
+  width: 50%;
+}
+
+
+
+#bottom_bar ul li{
+  display: inline-block;
+}
+
+.user_message {
+  float: left;
+  padding-left: 50px;
+  width: 900px;
+
+}
+
+.learn {
+  float: right;
+  width: calc(100% - 950px);
+}
+
+.picture_grid p {
+  width: 200px;
+}
+
+.pic_grid_top ul li {
+  display: inline-block;
+
+}
+
+.pic_grid_bottom ul li {
+  display: inline-block;
+  border: 10px solid rgb(255, 255, 255);
+
+
+}
+
+#fycPicGrid {
+  text-align: center;
+
+}
+
+#fycPicGrid li{
+  vertical-align: top;
+}
+
+.red_hr {
+
+  border-width: 12px;
+  background-color: red;
+
+}
+
+.list_grid {
+  margin-left: 60%;
+  margin-right: 10%;
+}
+
+.list_grid ul {
+  margin: 40px;
+}
+
+.listL {
+  float: left;
+}
+
+.listr {
+  float: right;
+}

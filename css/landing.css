@@ -1,0 +1,52 @@
+body  {
+    background-image: url("../brookings.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif
+
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#centerPT {
+    text-align: center;
+}
+#pagePics {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  transform: translateY(-65%);
+}
+#pagePics li{
+
+    display: inline-block;
+}
+#continue {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  transform: translateY(-65%);
+
+
+}
+#boxed {
+  padding: 3px;
+   border: 8px solid rgb(255, 255, 255);
+}
