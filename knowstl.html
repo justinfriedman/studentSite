@@ -101,14 +101,23 @@
   <div class="main_content">
     <div class="user_message">
       <h2>Useful Spots</h2>
+      <p>
+        St. Louis has a ton of great cultural areas to visit as a new student. Here are a few favorites of current students.
+      </p>
       <ul>
         <li class="delmar">
-          Delmar Loop
+          The Delmar Loop: Great restaurants and Music
 
         </li>
         <ul class="delmar">
           <li>
-            1
+            <a href="http://www.piccionepastry.com/"  target="_blank">Piccione Pastry: Best Bakery on the Loop</a>
+          </li>
+          <li>
+            <a href="http://www.thepageant.com/" target="_blank">The Pageant: One of the hottest music venues in St. Louis</a>
+          </li>
+          <li>
+            <a href="http://missiontacojoint.com/" target="_blank">Mission Taco: Fantastic signature tacos</a>
           </li>
         </ul>
         <li class="forestPark">
@@ -116,30 +125,48 @@
         </li>
         <ul class="forestPark">
           <li>
-            1
+            <a href="http://www.forestparkzoo.org/"  target="_blank">Forest Park Zoo: Free zoo for WU students</a>
+          </li>
+          <li>
+            <a href="http://www.steinbergskatingrink.com/"  target="_blank">Steinberg Skating Rink: Iceskating in beautiful Forest Park all winter long</a>
+          </li>
+          <li>
+            <a href="http://muny.org/"  target="_blank">MUNY: Outdoor public theater</a>
           </li>
         </ul>
         <li class="scott">
-          Scotttrade Center and Down Town
+          Scottrade Center and Downtown
         </li>
         <ul class="scott">
           <li>
-            1
+            <a href="http://blues.nhl.com/" target="_blank"> St. Louis Blues Hockey: Experiance Midwest Hockey culture at a Blues game</a>
+          </li>
+          <li>
+            <a href="http://stlouis.cardinals.mlb.com/index.jsp?c_id=stl" target="_blank">Cardinals games at Busch Stadium: Watch one of the best teams in the MLB and enjoy the food in Ballpark Village</a>
+          </li>
+          <li>
+            <a href="http://www.gatewayarch.com/" target="_blank">Gateway Arch: take on St. Louis like a tourist and vist the landmark of the city</a>
           </li>
         </ul>
         <li class="target">
-          Target
+          Target and The Promenade at Brentwood
         </li>
           <ul class="target">
             <li>
-              1
+              <a href="http://www.target.com/sl/Brentwood--Target-Store/1102" target="_blank">Target: pick up all the odds and ends for your dorm room</a>
+            </li>
+            <li>
+              <a href="http://www.microcenter.com/site/stores/brentwood.aspx" target="_blank">Micro Center: get any electronic device you possibly need</a>
+            </li>
+            <li>
+              <a href="http://www.traderjoes.com/stores">Trader Joe's: great snack food and frozen meals for late night studying</a>
             </li>
           </ul>
       </ul>
     </div>
     <div class="map">
 
-        <h2>Find these great area on the map</h2>
+        <h2>Find these great areas on the map</h2>
         <p>
         (map pin color corresponds with text color)
       </p>
@@ -155,7 +182,7 @@
     lat: 38.638887,
     lng: -90.294163
   };
-  var scotttrade = {
+  var Scottrade = {
     lat: 38.626567,
     lng: -90.202453
   };
@@ -169,10 +196,10 @@
     center: delmar
   });
 
-  var delmarPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/grn-circle.png");
-  var forestParkPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/blu-circle.png");
-  var scotttradePin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/red-circle.png");
-  var targetPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/purple-circle.png");
+  var delmarPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/purple-circle.png");
+  var forestParkPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/grn-circle.png");
+  var ScottradePin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/blu-circle.png");
+  var targetPin = new google.maps.MarkerImage("http://maps.google.com/mapfiles/kml/paddle/red-circle.png");
 
 
 
@@ -193,11 +220,11 @@
 
   });
 
-  var scotttradeMarker = new google.maps.Marker({
-    position: scotttrade,
+  var ScottradeMarker = new google.maps.Marker({
+    position: Scottrade,
     map: map,
     title: 'Scottrade Center',
-    icon: scotttradePin
+    icon: ScottradePin
   });
 
   var targetMarker = new google.maps.Marker({

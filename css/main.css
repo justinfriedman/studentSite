@@ -16,11 +16,11 @@ body {
         height: 400px;
       }
 .delmar {
-  color: blue;
+  color: rgb(82, 6, 242);
 }
 
 .forestPark {
-  color: blue;
+  color:green;
 }
 
 .scott {
@@ -28,7 +28,7 @@ body {
 }
 
 .target {
-  color: blue;
+  color: red;
 }
 
 ul #tb li{
@@ -38,6 +38,14 @@ ul #tb li{
 .bar_pic {
   text-align: center;
 
+}
+
+.user_message p {
+  width: 400px;
+}
+
+.user_message li {
+  width: 400px;
 }
 
 #top_bar ul li{
@@ -123,12 +131,12 @@ a:visited {
   width: 200px;
 }
 
-.pic_grid_top ul li {
+.pic_grid_top ul > li {
   display: inline-block;
 
 }
 
-.pic_grid_bottom ul li {
+.pic_grid_bottom ul > li {
   display: inline-block;
   border: 10px solid rgb(255, 255, 255);
 
@@ -152,7 +160,7 @@ a:visited {
 }
 
 .list_grid {
-  margin-left: 60%;
+  margin-left: 20%;
   margin-right: 10%;
 }
 
@@ -160,10 +168,15 @@ a:visited {
   margin: 40px;
 }
 
-.listL {
-  float: left;
+#listGrid {
+  margin-left: 60%;
 }
 
-.listr {
-  float: right;
+
+
+.divisionName {
+  list-style-type:none;
+}
+.courseUl li ul li {
+  text-decoration: underline;
 }
