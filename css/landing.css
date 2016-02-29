@@ -31,8 +31,8 @@ a:visited {
 #pagePics {
   text-align: center;
   position: relative;
-  top: 35%;
-  transform: translateY(-65%);
+  top: 110%;
+  transform: translateY(-0%);
 }
 #pagePics li{
 

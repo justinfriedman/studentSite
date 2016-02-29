@@ -110,7 +110,6 @@ a:visited {
 }
 
 
-
 #bottom_bar ul li{
   display: inline-block;
 }
@@ -180,3 +179,14 @@ a:visited {
 .courseUl li ul li {
   text-decoration: underline;
 }
+
+#group_right {
+  width: 60%;
+}
+
+#fyc_text {
+  width: 50%;
+  margin-left: 27%;
+}
+
+\
